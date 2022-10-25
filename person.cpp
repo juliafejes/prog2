@@ -24,8 +24,8 @@ void Person::set(int n){
 	age = n;
 	}
 
-long long int Person::person(){
-	return _fib(val);
+long long int Person::fib(){
+	return _fib(age);
 	}
 
 long long int Person::_fib(int n){
