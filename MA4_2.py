@@ -40,7 +40,7 @@ def main():
 		t_n.append(t4-t3)
 
 	plt.figure(1)
-	n = [*range(31, 46, 2)]
+	n = [*range(31, 46, 2)] #with step:2 to save some time!
 	fig, axis = plt.subplots()
 	axis.plot(n, t_py, label='Python')
 	axis.plot(n, t_c, label='C++')
